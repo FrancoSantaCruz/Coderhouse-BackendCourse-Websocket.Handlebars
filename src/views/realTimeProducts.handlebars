@@ -1,0 +1,29 @@
+<h1>Estoy en RealTimeProducts</h1>
+
+<form id="form">
+    <p>Title: </p>
+    <input type="text" id="title">
+    <p>Description: </p>
+    <input type="text" id="description">
+    <p>Code: </p>
+    <input type="text" id="code">
+    <p>Price: </p>
+    <input type="text" id="price">
+    <p>Stock: </p>
+    <input type="text" id="stock">
+    <p>category: </p>
+    <input type="text" id="category">
+    <br>
+    <br>
+    <input type="submit" value="Crear producto">
+</form>
+
+<div id="products"></div>
+
+
+
+{{!-- Final del código. --}}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realTimeProducts.js"></script>
